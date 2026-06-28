@@ -1,0 +1,4 @@
+method,TP,FP,FN,precision,recall,F1
+strict,50,1,8,0.980,0.862,0.917
+gated,53,5,5,0.914,0.914,0.914
+naive,39,25,19,0.609,0.672,0.639

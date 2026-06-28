@@ -1,0 +1,24 @@
+# --- Data caches & outputs (never publish raw pulls or derived outputs here) ---
+cache/
+outputs/
+*.jsonl
+*.ckpt
+
+# --- Analysis outputs that belong to other papers / are sensitive ---
+# (this repository ships only the core methods pipeline)
+dataset/
+figures/
+tables/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- OS / editor cruft ---
+.DS_Store
+.Rhistory
+*.swp
